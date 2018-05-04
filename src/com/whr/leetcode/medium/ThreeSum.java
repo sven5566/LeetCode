@@ -46,6 +46,7 @@ public class ThreeSum {
 			}
 		}
 		for (int i = 0; i <= nums.length - 3; i++) {
+			//从小到大排列，大于0的就不用再看
 			if (nums[i] > 0) {
 				break;
 			}
